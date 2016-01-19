@@ -1,0 +1,64 @@
+		body{
+				position: absolute;				
+				left:200px;
+				background-image: url('bg.png');
+				background-repeat: repeat-y;
+				background-color: #DFB073;
+			}
+			a{
+				color: #627571;	
+			}
+			a.visited{
+				color: #627571;	
+			}
+			
+			#titlebar{
+				position: absolute;
+				width: 750px;
+				height: 150px;
+				top: -10px;
+				text-align:center;
+			}
+			#linkbar{
+				position: absolute;
+				width: 130px;
+				top: 180px;
+			}
+			#linkbar .currentpage{
+				position: relative;
+				left: 20px;
+			}
+			#linkbar .currentpage a{
+				opacity: 1;
+			}
+			#linkbar .currentpage a:hover{
+				position:relative;
+				left: 0px;
+			}
+			#linkbar a{
+				text-decoration:none;
+				position:relative;
+				color: #2269A4;
+				opacity: 0.85;
+			}
+			#linkbar a:hover{
+				position:relative;
+				left: 20px;
+				opacity: 1;
+			}
+			#content{
+				font-family: 'arial';
+				font-size: 14px;
+				color: #994E49;
+				position:absolute;			
+				left: 150px;
+				width: 600px;
+				top: 180px;
+			}
+			#content h2{
+				position:relative;
+				left: 10px;
+				}
+			ul{
+				list-style-type: none;
+			}
